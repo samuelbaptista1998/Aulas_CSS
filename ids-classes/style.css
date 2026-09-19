@@ -1,0 +1,9 @@
+#cabecalho {
+  /*   # significa ID apenas um elemento por pagina*/
+  background-color: red;
+}
+
+.produto-destaque {
+  /*   . significa class usado para mais de um elemento por pagina*/
+  background-color: yellow;
+}
