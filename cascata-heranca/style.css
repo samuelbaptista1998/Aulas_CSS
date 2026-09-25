@@ -1,0 +1,8 @@
+p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+/* "modo cascata" sempre vai usar a ultima estilização , no caso o azul vai ser aplicado*/
