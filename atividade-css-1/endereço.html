@@ -11,11 +11,6 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
       }
-      h1 {
-        border: 10px solid black;
-        font-family:
-          "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      }
     </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -33,7 +28,17 @@
 
     <header id="cabecalho">
       <div style="background-color: black">
-        <h1 style="color: white">SAMUEL VEICULOS</h1>
+        <h1
+          style="
+            color: white;
+            border: 10px solid black;
+            font-family:
+              &quot;Franklin Gothic Medium&quot;, &quot;Arial Narrow&quot;,
+              Arial, sans-serif;
+          "
+        >
+          SAMUEL VEICULOS
+        </h1>
       </div>
 
       <a href="./index.html">|Inicio |</a>
@@ -42,10 +47,10 @@
       <a href="">Financiamento|</a>
       <a href="">Ajuda|</a>
     </header>
-
-    <h1>Rua Caingangs, 166 Tupã/SP</h1>
-    <img src="./img/endereco.png" alt="endereço" id="endereco" />
-
+    <div class="conteiner">
+      <h1>Rua Caingangs, 166 Tupã/SP</h1>
+      <img src="./img/endereco.png" alt="endereço" id="endereco" />
+    </div>
     <!--  -->
   </body>
 </html>
